@@ -17,12 +17,12 @@ function categorizeActiveList(activeList) {
     return playerPokemonList;
 }
 
-// Function to set luck value of all player Pokémon to 99
-function maxTeamLuck() {
+// Function to set luck value of all player Pokémon to 10000000
+function maxTeamLuck(sss) {
     const activeList = getActiveList();
     const playerPokemonList = categorizeActiveList(activeList);
     playerPokemonList.forEach((pokemon) => {
-        pokemon.luck = 99;
+        pokemon.luck = 10000000;
     });
 }
 
