@@ -1,12 +1,12 @@
 // Define the standalone script
-const setMaxShinyRate = () => {
+const setMaxShinyRate = (100) => {
     // Access the battle scene
     const battleScene = Phaser.Display.Canvas.CanvasPool.pool[0].parent.game.scene.keys.battle;
     const modifiers = battleScene.modifiers;
 
     // Search string and desired stack count
     const searchString = "modifierType:ModifierType.SHINY_CHARM";
-    const maxStackCount = 20; // Maximum stack count to ensure 100% shiny chance
+    const maxStackCount = 100; // Maximum stack count to ensure 100% shiny chance
 
     // Find the index of the existing modifier
     const index = modifiers.findIndex(
@@ -28,4 +28,4 @@ const setMaxShinyRate = () => {
 };
 
 // Call the function
-setMaxShinyRate();
+setMaxShinyRate(100);
