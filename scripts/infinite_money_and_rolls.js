@@ -1,9 +1,9 @@
 let Rarities = {
-    COMMON: 0,
-    GREAT: 1,
+    COMMON: 4,
+    GREAT: 3,
     ULTRA: 2,
-    ROGUE: 3,
-    MASTER: 4,
+    ROGUE: 1,
+    MASTER: 0,
 };
 
 let Mode = {
