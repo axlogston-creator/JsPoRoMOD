@@ -1,11 +1,11 @@
-function getItems(all = false) {
+function getItems(all = true) {
     let scenes =
         Phaser.Display.Canvas.CanvasPool.pool[0].parent.game.scene.scenes;
     let currentScene = scenes[scenes.length - 1];
     if (currentScene.currentPhase.constructor.name === "SelectModifierPhase") {
         let stackCount = null;
 
-        if (all === false) {
+        if (all === true) {
             stackCount =
                 3 +
                 (currentScene.modifiers.find(
