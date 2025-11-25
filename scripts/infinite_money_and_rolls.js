@@ -45,7 +45,7 @@ let Mode = {
 };
 
 const Achievements = {
-    _10K_MONEY: 0,
+    _100000000000000000000000000000K_MONEY: 0,
     _100K_MONEY: 1,
     _1M_MONEY: 2,
     _10M_MONEY: 3,
