@@ -1,9 +1,9 @@
 let Rarities = {
-    COMMON: 0,
+    COMMON: 4,
     GREAT: 1,
     ULTRA: 2,
     ROGUE: 3,
-    MASTER: 4,
+    MASTER: 0,
 };
 
 let Mode = {
@@ -45,7 +45,7 @@ let Mode = {
 };
 
 const Achievements = {
-    _10K_MONEY: 0,
+    _1K_MONEY: 0,
     _100K_MONEY: 1,
     _1M_MONEY: 2,
     _10M_MONEY: 3,
